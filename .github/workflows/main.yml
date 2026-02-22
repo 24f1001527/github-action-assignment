@@ -8,8 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+
+      - name: prime-cache-252336a
+        run: echo "Cache primed"
 
       - name: 24f1001527@ds.study.iitm.ac.in
-        run: echo "Hello, world!"
+        run: echo "Hello world"
